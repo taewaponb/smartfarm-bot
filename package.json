@@ -1,7 +1,7 @@
 {
-  "name": "babykick-line-bot",
+  "name": "smartfarm-bot",
   "version": "1.0.0",
-  "description": "Line Chatbot for Baby Kick Bot Project 2019",
+  "description": "This is chatbot for smart farm project (2019)",
   "engines": {
     "node": ">=8"
   },
@@ -21,7 +21,7 @@
     "sdk",
     "messaging-api"
   ],
-  "author": "Athibet Prawane",
+  "author": "Taewapon.b",
   "license": "ISC",
   "dependencies": {
     "@line/bot-sdk": "^6.8.2",

@@ -9,7 +9,7 @@ const contents = require('./contents.json');
 const client = new line.Client(config);
 const app = express();
 
-app.get('/webhook', (req, res) => res.end(`I'm listening. Please access with POST.`));
+app.get('/webhook', (req, res) => res.end(`Webhook is working fine sir.`));
 
 // webhook callback
 app.post('/webhook', line.middleware(config), (req, res) => {
