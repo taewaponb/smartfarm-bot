@@ -67,13 +67,13 @@ function handleEvent(event) {
 
 function handleText(message, replyToken) {
   switch (message.text) {
-    case 'เมนู':
+    case 'รายงานกิจกรรมประจำวัน':
       return client.replyMessage(
-        replyToken, contents["menu"]
+        replyToken, contents["report-function"]
       );
-    case 'นับลูกดิ้น':
+    case 'รายงานการเจริญเติบโต':
       return client.replyMessage(
-        replyToken, contents["menu-count"]
+        replyToken, contents["view-function"]
       );
     // let t = getHours()
     // // check time must not exceed 4-8 o'clock
