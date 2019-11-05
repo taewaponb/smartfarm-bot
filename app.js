@@ -71,7 +71,7 @@ function handleText(message, replyToken) {
       return client.replyMessage(
         replyToken, contents["report-function"]
       );
-    case 'รายงานการเจริญเติบโต':
+    case 'ตรวจสอบการรายงานผลผลิต':
       return client.replyMessage(
         replyToken, contents["view-function"]
       );
