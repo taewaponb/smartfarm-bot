@@ -55,7 +55,7 @@ function handleEvent(event) {
       }
     case 'follow': // greeting event
       return client.replyMessage(
-        event.replyToken, contents["greeting"]
+        event.replyToken, contents["register-function"]
       );
     case 'unfollow':
       return console.log(`Unfollowed this bot: ${JSON.stringify(event)}`);
